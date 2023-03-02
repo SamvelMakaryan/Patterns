@@ -3,6 +3,8 @@ public:
     ~Singleton() {
         ob = nullptr;
     }
+    Singleton& operator=(const Singleton&) = delete;
+    Singleton(const Singleton&) = delete;
 public:
     static Singleton* constructor() {
         if (ob == nullptr) {
