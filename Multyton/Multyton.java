@@ -6,7 +6,7 @@ public class Multyton {
     private static Multyton ob3 = null;
     private Multyton() {};
     public static Multyton constructor () {
-        if (currentCount == 3) {
+        if (currentCount == count) {
             currentCount = 0;
         }
         switch (currentCount % count) {
