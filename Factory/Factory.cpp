@@ -37,7 +37,3 @@ public:
         return new Product2Creator;
     }
 };
-
-int main() {
-    Product* ptr = 
-}
